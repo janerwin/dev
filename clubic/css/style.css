@@ -1,2 +1,98 @@
 /*     */
 
+
+.icon_header{
+	width: 60px;
+	height: 60px;
+}
+
+header{
+	display: flex;
+	flex-direction: row;
+	background-color: #C3D4E3;
+}
+
+
+.div_header{
+	display: inline-block;
+}
+
+ul.ul_tel, ul.ul_mat, ul.ul_sci{
+	display: none;
+	position: absolute;
+}
+
+nav > ol > li{
+	display: inline-block;
+	text-align: center;
+	vertical-align: middle;
+	padding-top: 15px;
+	padding-left: 15px;
+	margin: auto;
+}
+
+nav{
+	width: 95%;
+}
+
+ul.ul_tel{
+	transition: all 2s;	
+}
+
+
+.li_tel:hover ul.ul_tel{
+	display: block;
+	background-color: #C3D4E3;
+
+	
+
+}
+
+.li_tel .fa-chevron-down{
+	transition: all 0.8s;
+}
+
+.li_tel:hover .fa-chevron-down{
+	opacity: 0.5;
+	transform: rotate(180deg); 	
+}
+.li_mat .fa-chevron-down{
+	transition: all 0.8s;
+}
+
+.li_mat:hover .fa-chevron-down{
+	opacity: 0.5;
+	transform: rotate(180deg); 	
+}
+.li_sci .fa-chevron-down{
+	transition: all 0.8s;
+}
+
+.li_sci:hover .fa-chevron-down{
+	opacity: 0.5;
+	transform: rotate(180deg); 	
+}
+.li_aut .fa-chevron-down{
+	transition: all 0.8s;
+}
+
+.li_aut:hover .fa-chevron-down{
+	opacity: 0.5;
+	transform: rotate(180deg); 	
+}
+.li_jeu .fa-chevron-down{
+	transition: all 0.8s;
+}
+
+.li_jeu:hover .fa-chevron-down{
+	opacity: 0.5;
+	transform: rotate(180deg); 	
+}
+.li_divers .fa-chevron-down{
+	transition: all 0.8s;
+}
+
+.li_divers:hover .fa-chevron-down{
+	opacity: 0.5;
+	transform: rotate(180deg); 	
+}
