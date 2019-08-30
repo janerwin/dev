@@ -4,6 +4,7 @@
 .icon_header{
 	width: 60px;
 	height: 60px;
+	position: relative;
 }
 
 header{
@@ -13,26 +14,58 @@ header{
 }
 
 
-.div_header{
-	display: inline-block;
-}
+
 
 ul.ul_tel, ul.ul_mat, ul.ul_sci{
-	display: none;
+	top: 60px;
 	position: absolute;
+	background-color: #C3D4E3;/*
+	display: none; */
+
+}
+nav > ol{
+	display: flex;
+	align-content: space-around;
+	align-items: center;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	padding-left: 50px;
+
+	
+
+
+
 }
 
+
+
 nav > ol > li{
-	display: inline-block;
+	
 	text-align: center;
 	vertical-align: middle;
-	padding-top: 15px;
-	padding-left: 15px;
-	margin: auto;
+	height:  60px;
+	width: 100%;
+	top:  30px;
+}
+nav > ol > li > ul > li{
+	display: inline-block;
+
+	
+
+
+}
+nav > ol > li > ul{
+	width: 100%;
+	display: flex;
+	align-content: space-between;
 }
 
 nav{
-	width: 95%;
+
+	width: 100%;
+
 }
 
 ul.ul_tel{
@@ -42,11 +75,69 @@ ul.ul_tel{
 
 .li_tel:hover ul.ul_tel{
 	display: block;
-	background-color: #C3D4E3;
 
 	
-
+	
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .li_tel .fa-chevron-down{
 	transition: all 0.8s;
